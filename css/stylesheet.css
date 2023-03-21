@@ -1,0 +1,208 @@
+.anchor{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin:0px 0px;
+    font-family:Verdana;
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+}
+
+.txtfont{
+    font-size: 100%;
+}
+
+/*****HEADER*****/
+header{
+    display:flex;
+    width:100%;
+    background-color:rgb(75, 75, 75);
+    align-items: center;
+}
+header a{
+    padding:10px;
+    color:white;
+
+}
+.logo{
+    letter-spacing:10px;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:40px;
+    font-size: 200%;
+
+}
+
+/*****BODY1*****/
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(75, 75, 75) ;
+
+}
+
+.heading1{
+    font-size: 800%;
+    font-weight: bolder;
+    margin:0;
+
+}
+.heading2{
+    font-family:'Arial Narrow';
+    font-size: 200%;
+    font-weight: 10px;
+    margin:0;
+    letter-spacing: 15px;
+}
+.ninjaken{
+    height: 250px;
+    width: 250px;
+    cursor:grab;
+    align-self: flex-end;
+    animation-duration: 1s;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    transition: transform 500ms;
+    -webkit-user-drag: none;
+}
+
+.ninjaken:active{
+    cursor:grabbing;
+    transform: scale(1.1,.9);
+    
+
+
+}
+
+/*@keyframes bounce-4 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(0); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}*/
+
+
+/*****BODY2*****/
+
+.body2{
+    background-color: rgb(238, 238, 238);
+}
+
+.contbody2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+
+/*****BODY3*****/
+    
+} 
+.heading3{
+    font-size: 120%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contimagebody3{
+    display:flex;
+
+}
+.imagebody3{
+    align-items: center;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.imgbody3{
+    height: auto;
+    max-width:300px;
+
+}
+
+
+/*****BODY FORM*****/
+
+.bodyform1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(238, 238, 238);
+}
+.contbodyform1{
+    width:80%;
+}
+
+.contbodyform1 form{
+    width:100%;
+
+    
+}
+
+.fname1 {
+    box-sizing:border-box;
+    width:100%;
+    padding:20px 0 40px 0;
+    margin:30px auto 20px auto;
+    border-radius: 10px;
+    border:none;
+    
+}
+.fname2 {
+    box-sizing:border-box;
+    width:100%;
+    padding:20px 0 80px 0;
+    margin:10px auto 20px auto;
+    border-radius: 10px;
+    border:none;
+}
+
+.buttonform1{
+    background-color: rgb(220, 223, 79);
+    width:50%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+    box-shadow: 0 5px rgb(161, 163, 58);
+}
+
+.buttonform1:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(92, 92, 92);
+}
+
+footer .ninjaken{
+    float:left;
+}
+
+footer .ftlist{
+    float:right;
+    padding: 20px 40px;
+    text-align: right;
+}
+
+
